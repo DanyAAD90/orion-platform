@@ -11,5 +11,4 @@ while read file; do
     git -C "$WATCH_DIR" add .
     git -C "$WATCH_DIR" commit -m "Updated file: $file"
     git -C "$WATCH_DIR" push
-    git push
 done
