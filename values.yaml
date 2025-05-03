@@ -10,4 +10,4 @@ zwierzeta:
   - name: leopard
   - name: jez
 
-replicaCount: 15
+replicaCount: 14
