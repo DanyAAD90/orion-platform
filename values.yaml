@@ -9,5 +9,25 @@ zwierzeta:
   - name: chomik
   - name: leopard
   - name: jez
+  - name: pies
+  - name: kot
+  - name: zolw
+  - name: lew
+  - name: kaczka
+  - name: lis
+  - name: lama
+  - name: chomik
+  - name: leopard
+  - name: jez
+  - name: pies
+  - name: kot
+  - name: zolw
+  - name: lew
+  - name: kaczka
+  - name: lis
+  - name: lama
+  - name: chomik
+  - name: leopard
+  - name: jez
 
 replicaCount: 1
