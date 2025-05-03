@@ -97,7 +97,7 @@ spec:
     spec:
       containers:
       - name: nginx
-        image: nginx:1.25
+        image: {{ .Values.html-image }}
         command: ["/bin/sh", "-c"]
         args: ["cp /mnt/landing.html /usr/share/nginx/html/index.html && nginx -g 'daemon off;'"]
         volumeMounts:
