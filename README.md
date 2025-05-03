@@ -12,6 +12,6 @@ Ingress Envoy w natarciu :)
 6. kc -n envoy-ingress delete pods -l app=landing-html = refresh spisu tresci
 7. soon
 8. soon
-9. soon.
+9. soon.ddddd
 
 ## Kozackie Workflow soon
