@@ -11,3 +11,5 @@ zwierzeta:
   - name: jez
 
 replicaCount: 1
+
+html-image: nginx:1.25
