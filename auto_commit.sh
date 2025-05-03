@@ -1,6 +1,6 @@
 #!/bin/bash
 
-WATCH_DIR="/home/tms_master_1/envoy_ingress_pro2"
+WATCH_DIR="/home/tms_master_1/envoy_ingress_pro2/"
 
 echo "Monitoring changes in $WATCH_DIR..."
 
