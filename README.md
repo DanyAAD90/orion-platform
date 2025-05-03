@@ -10,3 +10,4 @@ Ingress Envoy w natarciu :)
 4. helm upgrade zwierzeta . -n envoy-ingress -f values.yaml
 5. kc -n envoy-ingress rollout restart deployment envoy-ingress = żeby envoy na nowo zaczytał z values.yaml
 6. kc -n envoy-ingress delete pods -l app=landing-html = refresh spisu tresci
+7. ---
