@@ -9,3 +9,5 @@ zwierzeta:
   - name: chomik
   - name: leopard
   - name: jez
+
+replicaCount: 20

@@ -134,7 +134,7 @@ metadata:
   name: {{ .name }}-html
   namespace: envoy-ingress
 spec:
-  replicas: 1
+  replicas: {{ $.Values.replicaCount }}
   selector:
     matchLabels:
       app: {{ .name }}-html
