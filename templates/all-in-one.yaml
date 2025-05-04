@@ -102,9 +102,9 @@ spec:
           command: ["/bin/sh", "-c"]
           args: ["cp /mnt/landing.html /usr/share/nginx/html/index.html && nginx -g 'daemon off;'"]
           volumeMounts:
-          - name: html
-            mountPath: /mnt
-            readOnly: true
+            - name: html
+              mountPath: /mnt
+              readOnly: true
       volumes:
         - name: html
           configMap:
