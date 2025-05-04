@@ -110,8 +110,8 @@ spec:
           configMap:
             name: zwierzeta-html
             items:
-            - key: landing.html
-              path: landing.html
+              - key: landing.html
+                path: landing.html
 ---
 apiVersion: v1
 kind: Service
