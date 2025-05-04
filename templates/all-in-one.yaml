@@ -97,21 +97,21 @@ spec:
         app: landing-html
     spec:
       containers:
-      - name: nginx
-        image: {{ .Values.htmlImage }}
-        command: ["/bin/sh", "-c"]
-        args: ["cp /mnt/landing.html /usr/share/nginx/html/index.html && nginx -g 'daemon off;'"]
-        volumeMounts:
-        - name: html
-          mountPath: /mnt
-          readOnly: true
+        - name: nginx
+          image: {{ .Values.htmlImage }}
+          command: ["/bin/sh", "-c"]
+          args: ["cp /mnt/landing.html /usr/share/nginx/html/index.html && nginx -g 'daemon off;'"]
+          volumeMounts:
+          - name: html
+            mountPath: /mnt
+            readOnly: true
       volumes:
-      - name: html
-        configMap:
-          name: zwierzeta-html
-          items:
-          - key: landing.html
-            path: landing.html
+        - name: html
+          configMap:
+            name: zwierzeta-html
+            items:
+            - key: landing.html
+              path: landing.html
 ---
 apiVersion: v1
 kind: Service
