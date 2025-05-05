@@ -293,5 +293,5 @@ spec:
   selector:
     app: envoy
   ports:
-  - port: 80
-    targetPort: 10080
+    - port: 80
+      targetPort: 10080
