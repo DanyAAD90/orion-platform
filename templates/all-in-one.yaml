@@ -273,8 +273,8 @@ spec:
         - name: envoy
           image: {{ .Values.envoyImage }}
           volumeMounts:
-          - name: config
-            mountPath: /etc/envoy
+            - name: config
+              mountPath: /etc/envoy
           ports:
           - containerPort: 80
       volumes:
