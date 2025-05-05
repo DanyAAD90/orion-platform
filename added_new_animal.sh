@@ -8,7 +8,7 @@ kubectl -n envoy-ingress rollout restart deployment envoy-ingress # dodanie stro
 sleep 3
 kubectl -n envoy-ingress delete pods -l app=landing-html # odswiezenie spisu tresci
 sleep 3
-kubectl -n envoy-ingress delete pods -l app=${zwierzak}-html
+kubectl -n envoy-ingress delete pods -l app=${zwierzak}-html #odswiezenie nowego zwierzaka
 
 echo -e "\e[30mDodanie nowego zwierzaka do /etc/hosts:\e[0m"
 echo "192.168.18.215 ${zwierzak}.envoy_zwierzaki.local" >> /etc/hosts
