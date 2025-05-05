@@ -170,8 +170,8 @@ spec:
   selector:
     app: {{ .name }}-html
   ports:
-  - port: 80
-    targetPort: 80
+    - port: 80
+      targetPort: 80
   type: ClusterIP
 {{- end }}
 {{- end }}
@@ -270,17 +270,17 @@ spec:
         app: envoy
     spec:
       containers:
-      - name: envoy
-        image: {{ .Values.envoyImage }}
-        volumeMounts:
-        - name: config
-          mountPath: /etc/envoy
-        ports:
-        - containerPort: 80
+        - name: envoy
+          image: {{ .Values.envoyImage }}
+          volumeMounts:
+          - name: config
+            mountPath: /etc/envoy
+          ports:
+          - containerPort: 80
       volumes:
-      - name: config
-        configMap:
-          name: envoy-bootstrap
+        - name: config
+          configMap:
+            name: envoy-bootstrap
 ---
 apiVersion: v1
 kind: Service
