@@ -5,4 +5,3 @@
 
 ## Dzialanie aplikacji
 
-## Workflow
