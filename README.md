@@ -15,3 +15,4 @@ Ingress Envoy w natarciu :)
 9. soon
 
 ## Kozackie Workflow soon
+tylko main
