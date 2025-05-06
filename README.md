@@ -15,4 +15,4 @@ Ingress Envoy w natarciu :)
 9. soon
 
 ## Kozackie Workflow soon
-tylko main
+tylko dev, skladamy projekt od kupy tutaj wraz z systenctl
