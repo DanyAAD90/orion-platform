@@ -3,5 +3,8 @@
 
 ## Zalozenia aplikacji
 
+pracuje na dev
+
 ## Dzialanie aplikacji
 
+pracuje na dev
