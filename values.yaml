@@ -11,7 +11,7 @@ zwierzeta:
   - name: leopard
   - name: jez
 
-replicaCount: 3
+replicaCount: 4
 
 htmlImage: nginx:1.25
 envoyImage: envoyproxy/envoy:v1.30.1
