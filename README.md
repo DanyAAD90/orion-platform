@@ -5,3 +5,5 @@
 
 ## Dzialanie aplikacji
 
+## Licencja
+Kod objęty licencją MIT – [zobacz szczegóły](./LICENSE)
