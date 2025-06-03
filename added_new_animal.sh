@@ -11,5 +11,5 @@ sleep 3
 kubectl -n envoy-ingress delete pods -l app=${zwierzak}-html #odswiezenie nowego zwierzaka
 
 echo -e "\e[30mDodanie nowego zwierzaka do /etc/hosts:\e[0m"
-echo "192.168.18.215 ${zwierzak}.envoy_zwierzaki.local" >> /etc/hosts
+sudo echo "192.168.18.215 ${zwierzak}.envoy_zwierzaki.local" >> /etc/hosts
 cat /etc/hosts | tail -1
