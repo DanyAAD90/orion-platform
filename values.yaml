@@ -1,5 +1,6 @@
 ---
 zwierzeta:
+  - name: sentinel3a
   - name: sentinel2a
   - name: sentinel1a
   - name: pies
