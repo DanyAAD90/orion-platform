@@ -23,7 +23,7 @@ data:
       <li><a href="http://leopard.envoy_zwierzaki.local">Strona o leopardzie</a></li>
       <li><a href="http://jez.envoy_zwierzaki.local">Strona o jezu</a></li>
     </ul>
-  sentinel-1a.html: |
+  sentinel1a.html: |
     <h1>Snetinel-1A</h1>
     <img src="https://esoc.esa.int/sites/default/files/Sentinel-1_pillars%20916x700_0.jpg" alt="Sentinel-1A" style="max-width: 100%; height: auto;"/>
     <ul>
