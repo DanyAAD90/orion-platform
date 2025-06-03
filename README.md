@@ -28,6 +28,8 @@ W toku
 4. Na windows wykonac komende jako admin w powershell (bo tam jest ogladane, poza środowiskiem):
 ```Add-Content -Path "$env:SystemRoot\System32\drivers\etc\hosts" -Value "`n192.168.18.215 sentinel1a.envoy_zwierzaki.local"```
 5. ArgoCD -> orion-platform-dev -> sync -> prune -> synchronization
+6. kubectl -n envoy-ingress delete pods -l app=landing-html = nie pomoglo
+7. kubectl -n envoy-ingress rollout restart deployment envoy-ingress = zadzialało
 
 ## dodatkowe
 1. zmiana strony sentinel1a.envoy_zwierzaki.local = delete pods sentinel1a-... + refresh website
