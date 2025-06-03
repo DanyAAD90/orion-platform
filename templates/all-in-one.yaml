@@ -10,6 +10,7 @@ data:
     <img src="https://sentiwiki.copernicus.eu/__attachments/50561026/image-20231021-065335.png?inst-v=f449a58f-77a5-411d-952f-30467b0f995b" style="max-width: 100%; height: auto;"/>
     <p>Available satelite images:</p>
     <ul>
+      <li><a href="http://sentinel2a.envoy_zwierzaki.local">Site about Sentinel-2A</a></li>
       <li><a href="http://sentinel1a.envoy_zwierzaki.local">Site about Sentinel-1A</a></li>
       <li><a href="http://pies.envoy_zwierzaki.local">Strona o psie</a></li>
       <li><a href="http://pies.envoy_zwierzaki.local">Strona o psie</a></li>
@@ -22,6 +23,13 @@ data:
       <li><a href="http://chomik.envoy_zwierzaki.local">Strona o chomiku</a></li>
       <li><a href="http://leopard.envoy_zwierzaki.local">Strona o leopardzie</a></li>
       <li><a href="http://jez.envoy_zwierzaki.local">Strona o jezu</a></li>
+    </ul>
+  sentinel2a.html: |
+    <h1>Sentinel-1A</h1>
+    <img src="https://esoc.esa.int/sites/default/files/Sentinel-2_pillars%20916x700_0.jpg" alt="Sentinel-2A" style="max-width: 100%; height: auto;"/>
+    <ul>
+      <li><a href="https://esoc.esa.int/content/sentinel-2a">More info here</a></li>
+      <li><a href="http://envoy_zwierzaki.local">Back to main site</a></li>
     </ul>
   sentinel1a.html: |
     <h1>Sentinel-1A</h1>
