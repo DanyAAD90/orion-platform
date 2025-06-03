@@ -12,7 +12,7 @@ W toku
 6. Zasoby klastra są zaktualizowane do replik 3.
 7. i dzieje sie bajka magia :D
 
-## Proces dodawania nowego elementu
+## Proces dodawania nowego elementu (manuualnie)
 1. wpis w all-in-one.yaml w CM landing.html na samym początku
 2. wpis w values.yaml
 3. wpis do /etc/hosts = ```sudo echo "192.168.18.215 sentinel1a.envoy_zwierzaki.local" >> /etc/hosts```
@@ -20,6 +20,14 @@ W toku
 4. Na windows wykonac komende jako admin w powershell (bo tam jest ogladane, poza środowiskiem):
 ```Add-Content -Path "$env:SystemRoot\System32\drivers\etc\hosts" -Value "`n192.168.18.215 sentinel1a.envoy_zwierzaki.local"```
 5. na windows odświeżyć okno
+
+## Proces dodawania nowego elementu (z automatyzacja ArgoCD)
+1. wpis w all-in-one.yaml w CM landing.html na samym początku
+2. wpis w values.yaml
+3. wpis do /etc/hosts = ```sudo echo "192.168.18.215 sentinel1a.envoy_zwierzaki.local" >> /etc/hosts```
+4. Na windows wykonac komende jako admin w powershell (bo tam jest ogladane, poza środowiskiem):
+```Add-Content -Path "$env:SystemRoot\System32\drivers\etc\hosts" -Value "`n192.168.18.215 sentinel1a.envoy_zwierzaki.local"```
+5. ArgoCD -> 
 
 ## dodatkowe
 1. zmiana strony sentinel1a.envoy_zwierzaki.local = delete pods sentinel1a-... + refresh website
