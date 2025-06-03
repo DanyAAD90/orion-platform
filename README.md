@@ -30,6 +30,7 @@ W toku
 5. ArgoCD -> orion-platform-dev -> sync -> prune -> synchronization
 6. kubectl -n envoy-ingress delete pods -l app=landing-html = nie pomoglo
 7. kubectl -n envoy-ingress rollout restart deployment envoy-ingress = zadzialało
+ktora komenda updatuje CM ?
 
 ## dodatkowe
 1. zmiana strony sentinel1a.envoy_zwierzaki.local = delete pods sentinel1a-... + refresh website
