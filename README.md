@@ -27,7 +27,7 @@ W toku
 3. wpis do /etc/hosts = ```sudo echo "192.168.18.215 sentinel1a.envoy_zwierzaki.local" >> /etc/hosts```
 4. Na windows wykonac komende jako admin w powershell (bo tam jest ogladane, poza środowiskiem):
 ```Add-Content -Path "$env:SystemRoot\System32\drivers\etc\hosts" -Value "`n192.168.18.215 sentinel1a.envoy_zwierzaki.local"```
-5. ArgoCD -> 
+5. ArgoCD -> orion-platform-dev -> sync -> prune -> synchronization
 
 ## dodatkowe
 1. zmiana strony sentinel1a.envoy_zwierzaki.local = delete pods sentinel1a-... + refresh website
