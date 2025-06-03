@@ -27,7 +27,7 @@ data:
     <h1>Snetinel-1A</h1>
     <img src="https://esoc.esa.int/sites/default/files/Sentinel-1_pillars%20916x700_0.jpg" alt="Sentinel-1A" style="max-width: 100%; height: auto;"/>
     <ul>
-      <li><a href="http://envoy_zwierzaki.local">Powrot do spisu tresci</a></li>
+      <li><a href="http://envoy_zwierzaki.local">Back to main site</a></li>
     </ul>
   kot.html: |
     <h1>To jest kot</h1>
