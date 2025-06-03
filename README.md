@@ -16,10 +16,10 @@ W toku
 1. wpis w all-in-one.yaml w CM landing.html na samym początku
 2. wpis w values.yaml
 3. wpis do /etc/hosts = ```sudo echo "192.168.18.215 sentinel1a.envoy_zwierzaki.local" >> /etc/hosts```
-3. uruchomienie sktyptu added_new_animal.sh
 4. Na windows wykonac komende jako admin w powershell (bo tam jest ogladane, poza środowiskiem):
 ```Add-Content -Path "$env:SystemRoot\System32\drivers\etc\hosts" -Value "`n192.168.18.215 sentinel1a.envoy_zwierzaki.local"```
-5. na windows odświeżyć okno
+5. uruchomienie only_update.sh
+6. na windows odświeżyć okno
 
 ## Proces dodawania nowego elementu (z automatyzacja ArgoCD)
 1. wpis w all-in-one.yaml w CM landing.html na samym początku
