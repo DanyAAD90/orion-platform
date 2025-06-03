@@ -6,8 +6,9 @@ metadata:
   namespace: envoy-ingress
 data:
   landing.html: |
-    <h1>Witamy na stronie glownej :)</h1>
-    <p>Oto dostepne strony:</p>
+    <h1>Welcome to Orion Platform</h1>
+    <img src="https://sentiwiki.copernicus.eu/__attachments/50561026/image-20231021-065335.png?inst-v=f449a58f-77a5-411d-952f-30467b0f995b" alt="Kot" style="max-width: 100%; height: auto;"/>
+    <p>Available satelite images:</p>
     <ul>
       <li><a href="http://pies.envoy_zwierzaki.local">Strona o psie</a></li>
       <li><a href="http://kot.envoy_zwierzaki.local">Strona o kocie</a></li>
