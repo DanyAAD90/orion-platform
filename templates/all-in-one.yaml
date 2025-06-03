@@ -10,6 +10,7 @@ data:
     <img src="https://sentiwiki.copernicus.eu/__attachments/50561026/image-20231021-065335.png?inst-v=f449a58f-77a5-411d-952f-30467b0f995b" style="max-width: 100%; height: auto;"/>
     <p>Available satelite images:</p>
     <ul>
+      <li><a href="http://sentinel3a.envoy_zwierzaki.local">Site about Sentinel-2A</a></li>
       <li><a href="http://sentinel2a.envoy_zwierzaki.local">Site about Sentinel-2A</a></li>
       <li><a href="http://sentinel1a.envoy_zwierzaki.local">Site about Sentinel-1A</a></li>
       <li><a href="http://pies.envoy_zwierzaki.local">Strona o psie</a></li>
@@ -23,6 +24,13 @@ data:
       <li><a href="http://chomik.envoy_zwierzaki.local">Strona o chomiku</a></li>
       <li><a href="http://leopard.envoy_zwierzaki.local">Strona o leopardzie</a></li>
       <li><a href="http://jez.envoy_zwierzaki.local">Strona o jezu</a></li>
+    </ul>
+  sentinel3a.html: |
+    <h1>Sentinel-3A</h1>
+    <img src="https://www.esa.int/var/esa/storage/images/esa_multimedia/images/2016/01/copernicus_sentinel-3/15758903-1-eng-GB/Copernicus_Sentinel-3_pillars.jpg" alt="Sentinel-3A" style="max-width: 100%; height: auto;"/>
+    <ul>
+      <li><a href="https://www.esa.int/Applications/Observing_the_Earth/Copernicus/Sentinel-3/Rise_and_shine_for_Sentinel-3A">More info here</a></li>
+      <li><a href="http://envoy_zwierzaki.local">Back to main site</a></li>
     </ul>
   sentinel2a.html: |
     <h1>Sentinel-2A</h1>
