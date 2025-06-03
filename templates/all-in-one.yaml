@@ -13,17 +13,19 @@ data:
       <li><a href="http://sentinel3a.envoy_zwierzaki.local">Site about Sentinel-3A</a></li>
       <li><a href="http://sentinel2a.envoy_zwierzaki.local">Site about Sentinel-2A</a></li>
       <li><a href="http://sentinel1a.envoy_zwierzaki.local">Site about Sentinel-1A</a></li>
-      # <li><a href="http://pies.envoy_zwierzaki.local">Strona o psie</a></li>
-      # <li><a href="http://pies.envoy_zwierzaki.local">Strona o psie</a></li>
-      # <li><a href="http://kot.envoy_zwierzaki.local">Strona o kocie</a></li>
-      # <li><a href="http://zolw.envoy_zwierzaki.local">Strona o zolwiu</a></li>
-      # <li><a href="http://lew.envoy_zwierzaki.local">Strona o lwie</a></li>
-      # <li><a href="http://kaczka.envoy_zwierzaki.local">Strona o kaczce</a></li>
-      # <li><a href="http://lis.envoy_zwierzaki.local">Strona o lisie</a></li>
-      # <li><a href="http://lama.envoy_zwierzaki.local">Strona o lamie</a></li>
-      # <li><a href="http://chomik.envoy_zwierzaki.local">Strona o chomiku</a></li>
-      # <li><a href="http://leopard.envoy_zwierzaki.local">Strona o leopardzie</a></li>
-      # <li><a href="http://jez.envoy_zwierzaki.local">Strona o jezu</a></li>
+      <!--
+      <li><a href="http://pies.envoy_zwierzaki.local">Strona o psie</a></li>
+      <li><a href="http://pies.envoy_zwierzaki.local">Strona o psie</a></li>
+      <li><a href="http://kot.envoy_zwierzaki.local">Strona o kocie</a></li>
+      <li><a href="http://zolw.envoy_zwierzaki.local">Strona o zolwiu</a></li>
+      <li><a href="http://lew.envoy_zwierzaki.local">Strona o lwie</a></li>
+      <li><a href="http://kaczka.envoy_zwierzaki.local">Strona o kaczce</a></li>
+      <li><a href="http://lis.envoy_zwierzaki.local">Strona o lisie</a></li>
+      <li><a href="http://lama.envoy_zwierzaki.local">Strona o lamie</a></li>
+      <li><a href="http://chomik.envoy_zwierzaki.local">Strona o chomiku</a></li>
+      <li><a href="http://leopard.envoy_zwierzaki.local">Strona o leopardzie</a></li>
+      <li><a href="http://jez.envoy_zwierzaki.local">Strona o jezu</a></li>
+      -->
     </ul>
   sentinel3a.html: |
     <h1>Sentinel-3A</h1>
