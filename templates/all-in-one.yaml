@@ -10,6 +10,7 @@ data:
     <img src="https://sentiwiki.copernicus.eu/__attachments/50561026/image-20231021-065335.png?inst-v=f449a58f-77a5-411d-952f-30467b0f995b" style="max-width: 100%; height: auto;"/>
     <p>Available satelite images:</p>
     <ul>
+      <li><a href="http://sentinel3b.envoy_zwierzaki.local">Site about Sentinel-3B</a></li>
       <li><a href="http://sentinel3a.envoy_zwierzaki.local">Site about Sentinel-3A</a></li>
       <li><a href="http://sentinel2a.envoy_zwierzaki.local">Site about Sentinel-2A</a></li>
       <li><a href="http://sentinel1a.envoy_zwierzaki.local">Site about Sentinel-1A</a></li>
@@ -26,6 +27,13 @@ data:
       <li><a href="http://leopard.envoy_zwierzaki.local">Strona o leopardzie</a></li>
       <li><a href="http://jez.envoy_zwierzaki.local">Strona o jezu</a></li>
       -->
+    </ul>
+  sentinel3b.html: |
+    <h1>Sentinel-3B</h1>
+    <img src="https://eo.belspo.be/sites/default/files/styles/xlarge/public/satellites/224._sentinel-3b.jpg?itok=1dSvqFpS" alt="Sentinel-3B" style="max-width: 100%; height: auto;"/>
+    <ul>
+      <li><a href="https://eo.belspo.be/en/satellites-and-sensors/sentinel-3b">More info here</a></li>
+      <li><a href="http://envoy_zwierzaki.local">Back to main site</a></li>
     </ul>
   sentinel3a.html: |
     <h1>Sentinel-3A</h1>
