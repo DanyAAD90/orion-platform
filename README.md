@@ -10,8 +10,7 @@ W toku
 4. ide do ArgoCD, ktory jest polaczony z dev
 5. klikam sync -> prune -> synchronization
 6. Zasoby klastra są zaktualizowane do replik 3.
-=======
-6. i dzieje sie bajka magia :D
+7. i dzieje sie bajka magia :D
 
 ## Proces dodawania nowego elementu
 1. wpis w all-in-one.yaml w CM landing.html na samym początku
