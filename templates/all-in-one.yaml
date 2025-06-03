@@ -10,6 +10,8 @@ data:
     <img src="https://sentiwiki.copernicus.eu/__attachments/50561026/image-20231021-065335.png?inst-v=f449a58f-77a5-411d-952f-30467b0f995b" style="max-width: 100%; height: auto;"/>
     <p>Available satelite images:</p>
     <ul>
+      <li><a href="http://sentinel-1a.envoy_zwierzaki.local">Strona o Sentinel-1A</a></li>
+      <li><a href="http://pies.envoy_zwierzaki.local">Strona o psie</a></li>
       <li><a href="http://pies.envoy_zwierzaki.local">Strona o psie</a></li>
       <li><a href="http://kot.envoy_zwierzaki.local">Strona o kocie</a></li>
       <li><a href="http://zolw.envoy_zwierzaki.local">Strona o zolwiu</a></li>
@@ -20,6 +22,12 @@ data:
       <li><a href="http://chomik.envoy_zwierzaki.local">Strona o chomiku</a></li>
       <li><a href="http://leopard.envoy_zwierzaki.local">Strona o leopardzie</a></li>
       <li><a href="http://jez.envoy_zwierzaki.local">Strona o jezu</a></li>
+    </ul>
+  sentinel-1a.html: |
+    <h1>Snetinel-1A</h1>
+    <img src="https://esoc.esa.int/sites/default/files/Sentinel-1_pillars%20916x700_0.jpg" alt="Sentinel-1A" style="max-width: 100%; height: auto;"/>
+    <ul>
+      <li><a href="http://envoy_zwierzaki.local">Powrot do spisu tresci</a></li>
     </ul>
   kot.html: |
     <h1>To jest kot</h1>
