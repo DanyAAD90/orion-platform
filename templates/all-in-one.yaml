@@ -25,7 +25,7 @@ data:
       <li><a href="http://jez.envoy_zwierzaki.local">Strona o jezu</a></li>
     </ul>
   sentinel2a.html: |
-    <h1>Sentinel-1A</h1>
+    <h1>Sentinel-2A</h1>
     <img src="https://esoc.esa.int/sites/default/files/Sentinel-2_pillars%20916x700_0.jpg" alt="Sentinel-2A" style="max-width: 100%; height: auto;"/>
     <ul>
       <li><a href="https://esoc.esa.int/content/sentinel-2a">More info here</a></li>
