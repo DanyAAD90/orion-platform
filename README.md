@@ -16,3 +16,4 @@ W toku
 1. wpis w all-in-one.yaml w CM landing.html na samym początku
 2. wpis w values.yaml 
 3. uruchomienie sktyptu added_new_animal.sh
+4. permission denied dla /etc/hosts wiec trzeba recznie dodac
