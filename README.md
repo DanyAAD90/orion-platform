@@ -14,6 +14,6 @@ W toku
 
 ## Proces dodawania nowego elementu
 1. wpis w all-in-one.yaml w CM landing.html na samym początku
-2. wpis w values.yaml 
+2. wpis w values.yaml
+3. permission denied dla /etc/hosts wiec trzeba recznie dodac, np 192.168.18.215 sentinel1a.envoy_zwierzaki.local
 3. uruchomienie sktyptu added_new_animal.sh
-4. permission denied dla /etc/hosts wiec trzeba recznie dodac
