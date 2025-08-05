@@ -1,38 +1,56 @@
-## Zalozenia aplikacji
+# 🛰️ Orion Platform
 
-W toku
+A complete **all-in-one** Kubernetes manifest describing a multi-component application using components such as:
+- Envoy Proxy (as a reverse proxy / ingress controller)
+- Persistent Volume / VolumeClaim
+- ConfigMap, Secret
+- Deployment + Service
 
-## Dzialanie aplikacji
+## 📦 Use Case
 
-1. jestem na git checkot dev
-2. edytuje plik z values.yaml np chce zmienic repliki z 1 na 3
-3. systemctl auto_commit_envoy.service robi auto git add git commit git push na repo na branch dev
-4. ide do ArgoCD, ktory jest polaczony z dev
-5. klikam sync -> prune -> synchronization
-6. Zasoby klastra są zaktualizowane do replik 3.
-7. i dzieje sie bajka magia :D
+This project is intended for:
+- presenting DevOps knowledge in the area of traffic management and environment configuration in Kubernetes
+- testing applications consisting of multiple components via a single YAML file
+- demonstrating Infrastructure as Code (IaC)
 
-## Proces dodawania nowego elementu (manuualnie)
-1. wpis w all-in-one.yaml w CM landing.html na samym początku
-2. wpis w values.yaml
-3. wpis do /etc/hosts = ```sudo echo "192.168.18.215 sentinel1a.envoy_zwierzaki.local" >> /etc/hosts```
-4. Na windows wykonac komende jako admin w powershell (bo tam jest ogladane, poza środowiskiem):
-```Add-Content -Path "$env:SystemRoot\System32\drivers\etc\hosts" -Value "`n192.168.18.215 sentinel1a.envoy_zwierzaki.local"```
-5. uruchomienie only_update.sh
-6. na windows odświeżyć okno
+## ⚙️ Technologies
 
-## Proces dodawania nowego elementu (z automatyzacja ArgoCD)
-1. wpis w all-in-one.yaml w CM landing.html na samym początku
-2. wpis w values.yaml
-3. wpis do /etc/hosts = ```sudo echo "192.168.18.215 sentinel1a.envoy_zwierzaki.local" >> /etc/hosts```
-4. Na windows wykonac komende jako admin w powershell (bo tam jest ogladane, poza środowiskiem):
-```Add-Content -Path "$env:SystemRoot\System32\drivers\etc\hosts" -Value "`n192.168.18.215 sentinel1a.envoy_zwierzaki.local"```
-5. ArgoCD -> orion-platform-dev -> sync -> prune -> synchronization
+- `Kubernetes`
+- `Envoy Proxy`
+- `ConfigMap`, `Secret`, `PersistentVolume`
+- `Ingress`, `Deployment`, `Service`
 
-ArgoCD sie tutaj do tego nie nadaje, ponieważ nie da sie go  "zmusić" go do runtime'owej logiki.!
+## 📁 Structure
 
-## dodatkowe
-1. zmiana strony sentinel1a.envoy_zwierzaki.local = delete pods sentinel1a-... + refresh website
+```bash
+templates/
+└── all-in-one.yaml     # Manifest containing the complete application environment
+values.yaml             # list of static HTML apps with Sentinel info
+assets/                 # screenshots for README
+```
+## 🌍 User-facing application
 
-## Licencja
-Kod objęty licencją MIT – [zobacz szczegóły](./LICENSE)
+The platform includes a simple web interface built with raw HTML, providing educational and visual information about the Sentinel satellite missions developed under the Copernicus Programme.
+🛰️ Features:
+
+- Landing page with a graphical timeline of all Sentinel satellites (2014–2030)
+
+- Satellite detail pages (e.g., Sentinel-1A) with images and external ESA links
+
+- Navigation between pages and source references
+
+## 🖼️ Screenshots:
+Main Page	Satellite Page	ESA Link Page
+
+🧪 The HTML files are served via a Kubernetes deployment included in all-in-one.yaml.
+This demonstrates how to host a static web application inside a Kubernetes environment using infrastructure-as-code principles.
+
+---
+![Preview](./assets/main_site.PNG)
+---
+---
+![Preview](./assets/Sentinel-1A.PNG)
+---
+---
+![Preview](./assets/Sentinel-1A-description.PNG)
+---
