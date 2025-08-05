@@ -25,7 +25,7 @@ This project is intended for:
 ```bash
 templates/
 └── all-in-one.yaml     # Manifest containing the complete application environment
-values.yaml             # static HTML app with Sentinel info
+values.yaml             # list of static HTML apps with Sentinel info
 assets/                 # screenshots for README
 ```
 ## 🌍 User-facing application
