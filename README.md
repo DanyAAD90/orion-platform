@@ -26,6 +26,3 @@ This project is intended for:
 templates/
 └── all-in-one.yaml     # Manifest containing the complete application environment
 ```
-
-## Licencja
-Kod objęty licencją MIT – [zobacz szczegóły](./LICENSE)
