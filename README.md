@@ -47,7 +47,8 @@ This demonstrates how to host a static web application inside a Kubernetes envir
 ![Preview](./main_site.PNG)
 ---
 ---
-![Preview2](./Sentinel-1A.PNG)
+![Preview](./Sentinel-1A.PNG)
 ---
 ---
-![Preview3](./Sentinel-1A-description.PNG)
+![Preview](./Sentinel-1A-description.PNG)
+---
