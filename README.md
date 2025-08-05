@@ -26,3 +26,19 @@ This project is intended for:
 templates/
 └── all-in-one.yaml     # Manifest containing the complete application environment
 ```
+## 🌍 User-facing application
+
+The platform includes a simple web interface built with raw HTML, providing educational and visual information about the Sentinel satellite missions developed under the Copernicus Programme.
+🛰️ Features:
+
+- Landing page with a graphical timeline of all Sentinel satellites (2014–2030)
+
+- Satellite detail pages (e.g., Sentinel-1A) with images and external ESA links
+
+- Navigation between pages and source references
+
+## 🖼️ Screenshots:
+Main Page	Satellite Page	ESA Link Page
+
+🧪 The HTML files are served via a Kubernetes deployment included in all-in-one.yaml.
+This demonstrates how to host a static web application inside a Kubernetes environment using infrastructure-as-code principles.
