@@ -44,5 +44,5 @@ Main Page	Satellite Page	ESA Link Page
 This demonstrates how to host a static web application inside a Kubernetes environment using infrastructure-as-code principles.
 
 ---
-![Preview](./main_site.png)
+![Preview](./main_site.PNG)
 ---
