@@ -34,3 +34,6 @@ ArgoCD sie tutaj do tego nie nadaje, ponieważ nie da sie go  "zmusić" go do ru
 
 ## dodatkowe
 1. zmiana strony sentinel1a.envoy_zwierzaki.local = delete pods sentinel1a-... + refresh website
+
+## Licencja
+Kod objęty licencją MIT – [zobacz szczegóły](./LICENSE)
