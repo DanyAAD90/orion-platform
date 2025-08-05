@@ -1,15 +1,9 @@
 ---
 zwierzeta:
-  - name: pies
-  - name: kot
-  - name: zolw
-  - name: lew
-  - name: kaczka
-  - name: lis
-  - name: lama
-  - name: chomik
-  - name: leopard
-  - name: jez
+  - name: sentinel3b
+  - name: sentinel3a
+  - name: sentinel2a
+  - name: sentinel1a
 
 replicaCount: 1
 
