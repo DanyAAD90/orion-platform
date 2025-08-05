@@ -1,16 +1,30 @@
-## Wdrożenie kompletnej platformy aplikacyjnej w Kubernetes za pomocą manifestu all-in-one.yaml, zawierającego:
+# 🛰️ Orion Platform
 
-    Konfigurację aplikacji złożonej z wielu komponentów (Deployment, Service, Ingress, ConfigMap, PersistentVolume, Secret).
+Kompletny manifest Kubernetes typu **all-in-one**, opisujący wieloskładnikową aplikację z wykorzystaniem komponentów takich jak:
+- Envoy Proxy (jako reverse proxy / ingress controller)
+- Persistent Volume / VolumeClaim
+- ConfigMap, Secret
+- Deployment + Service
 
-    Integrację z Envoy Proxy jako centralnym punktem kontrolnym ruchu przychodzącego i wewnętrznego (Ingress).
+## 📦 Zastosowanie
 
-    Obsługę środowiska poprzez persistent volume, zmienne środowiskowe, oraz sekrety (np. poświadczenia do bazy danych).
+Projekt służy do:
+- prezentacji wiedzy DevOps z zakresu zarządzania ruchem sieciowym i konfiguracją środowisk w Kubernetes
+- testowania aplikacji złożonych z wielu komponentów w jednym pliku YAML
+- demonstracji Infrastructure as Code (IaC)
 
-    Automatyzację wdrożenia wszystkich zasobów jednym plikiem, ułatwiającą testy i rozwój w środowisku deweloperskim.
+## ⚙️ Technologie
 
-    Zgodność z podejściem GitOps – wersjonowanie infrastruktury jako kodu.
+- `Kubernetes`
+- `Envoy Proxy`
+- `ConfigMap`, `Secret`, `PersistentVolume`
+- `Ingress`, `Deployment`, `Service`
 
-    Obsługę aplikacji przez LoadBalancer / Ingress, umożliwiającą dostęp z zewnątrz.
+## 📁 Struktura
 
+```bash
+templates/
+└── all-in-one.yaml     # Manifest zawierający kompletne środowisko aplikacyjne
+```
 ## Licencja
 Kod objęty licencją MIT – [zobacz szczegóły](./LICENSE)
